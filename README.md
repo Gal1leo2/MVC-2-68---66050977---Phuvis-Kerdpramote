@@ -1,9 +1,8 @@
-# ระบบจัดสรรที่หลบภัยในสถานการณ์ฉุกเฉิน
-# Emergency Shelter Allocation System (MVC)
+# ข้อ 2 - Emergency Shelter Allocation System
 
 ---
 
-## โครงสร้างโปรเจค (Project Structure)
+## Project Structure
 
 ```
 shelter_mvc/
@@ -47,7 +46,7 @@ shelter_mvc/
 
 ---
 
-## หน้าจอ 3 หน้า (3 Separate Views)
+## View
 
 ### View 1: หน้าลงทะเบียนประชาชน (`citizen_view.py`)
 - แสดงประชาชนทั้งหมด
@@ -67,7 +66,7 @@ shelter_mvc/
 
 ---
 
-## Business Rules 
+## Business Logic and Rules 
 
 | กฎ | อธิบาย | ตรวจสอบใน |
 |---|---|---|
@@ -78,7 +77,7 @@ shelter_mvc/
 
 ---
 
-## ข้อมูลตัวอย่าง (Sample Data)
+## Sample Data
 
 - ศูนย์พักพิง **7** แห่ง (ความจุรวม 29 คน)
 - ประชาชน **35** คน
